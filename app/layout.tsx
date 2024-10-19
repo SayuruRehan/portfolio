@@ -7,7 +7,7 @@ import { RESUME_DATA } from "@/data/resume-data";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
+  title: `${RESUME_DATA.name}`,
 };
 
 export default function RootLayout({
