@@ -387,6 +387,13 @@ const page = () => {
                 <CardContent>
                   {award.description}
                 </CardContent>
+                <CardFooter>
+                  <Button>
+                    <a href={award.link} target="_blank" rel="noopener noreferrer">
+                        Check it out!
+                    </a>
+                  </Button>
+                </CardFooter>
               </Card>
             );
           })}
