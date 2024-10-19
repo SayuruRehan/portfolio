@@ -16,7 +16,7 @@ export const RESUME_DATA = {
     "Huge Liverpool fan (Let's go Reds!) ❤️",
   ],
   avatarUrl1: "https://pbs.twimg.com/profile_images/1814304469099880448/KAxACa0Z_400x400.jpg",
-  avatarUrl2: "https://avatars.githubusercontent.com/u/96183717?v=4",
+  avatarUrl2: "https://github.com/SayuruRehan/portfolio/blob/master/public/avatar.png",
   personalWebsiteUrl: "https://rexanwong.xyz",
   contact: {  
     email: null,
@@ -164,8 +164,8 @@ export const RESUME_DATA = {
   work: [
     {
       company: "IFS",
-      link: "https://thirdweb.com",
-      badges: ["Contract"],
+      link: "https://www.ifs.com/",
+      badges: ["Contract", "Supply Chain", "PL/SQL", "IFS ERP"],
       title: "Technical Consultant (External)",
       logo: ThirdwebLogo,
       start: "Oct 2024",
@@ -174,13 +174,57 @@ export const RESUME_DATA = {
         "I am currently working as an external Technical Consultant for the IFS Supply Chain Product Area on a contract basis",
     },
     {
-      company: "Arta Tech Fin Corporation Limited",
-      link: "https://www.artatechfin.com/",
-      badges: ["Internship", "Hybrid"],
-      title: "Summer Intern",
+      company: "Platned",
+      link: "https://www.platned.com/",
+      badges: ["IFS ERP", "PL/SQL", "OracleDB", "BOOMI", "Automated Testing", "Extension Developer", "Integration Developer"],
+      title: "Junior Technical Consultant",
       logo: Arta,
-      start: "7/2022",
-      end: "8/2022",
+      start: "Present",
+      end: "Mar 2024",
+      description:
+        "During the summer of 2022, I interned at Arta Tech Fin as a blockchain research intern. My responsibilities included conducting research on blockchain technologies and their potential applications in the financial industry.  At Arta Tech Fin, I had the chance to work with experienced professionals in the financial industry and learn about the latest trends and developments in blockchain technology. I gained valuable insights into how blockchain can be used to solve problems and improve processes in the financial sector, and was able to contribute to the company's research efforts.",
+    },
+    {
+      company: "Cohere for AI",
+      link: "https://www.platned.com/",
+      badges: ["IFS ERP", "PL/SQL", "OracleDB", "BOOMI", "Automated Testing", "Extension Developer", "Integration Developer"],
+      title: "ML Researcher & Contributor",
+      logo: Arta,
+      start: "Sep 2023",
+      end: "Present",
+      description:
+        "Was a volunteer contributor to the Aya Project in Cohere for AI.",
+    },
+    {
+      company: "IFS",
+      link: "https://www.platned.com/",
+      badges: ["IFS ERP", "PL/SQL", "OracleDB", "BOOMI", "Automated Testing", "Extension Developer", "Integration Developer"],
+      title: "Software Engineer Intern",
+      logo: Arta,
+      start: "Present",
+      end: "Mar 2024",
+      description:
+        "During the summer of 2022, I interned at Arta Tech Fin as a blockchain research intern. My responsibilities included conducting research on blockchain technologies and their potential applications in the financial industry.  At Arta Tech Fin, I had the chance to work with experienced professionals in the financial industry and learn about the latest trends and developments in blockchain technology. I gained valuable insights into how blockchain can be used to solve problems and improve processes in the financial sector, and was able to contribute to the company's research efforts.",
+    },
+    {
+      company: "Shape AI",
+      link: "https://shape-ai.com/",
+      badges: ["Remote"],
+      title: "Business Development & Social Media Manager Intern",
+      logo: Arta,
+      start: "Present",
+      end: "Mar 2024",
+      description:
+        "During the summer of 2022, I interned at Arta Tech Fin as a blockchain research intern. My responsibilities included conducting research on blockchain technologies and their potential applications in the financial industry.  At Arta Tech Fin, I had the chance to work with experienced professionals in the financial industry and learn about the latest trends and developments in blockchain technology. I gained valuable insights into how blockchain can be used to solve problems and improve processes in the financial sector, and was able to contribute to the company's research efforts.",
+    },
+    {
+      company: "SNAP Ferd",
+      link: "https://www.platned.com/",
+      badges: ["IFS ERP", "PL/SQL", "OracleDB", "BOOMI", "Automated Testing", "Extension Developer", "Integration Developer"],
+      title: "Data Analyst Intern",
+      logo: Arta,
+      start: "Present",
+      end: "Mar 2024",
       description:
         "During the summer of 2022, I interned at Arta Tech Fin as a blockchain research intern. My responsibilities included conducting research on blockchain technologies and their potential applications in the financial industry.  At Arta Tech Fin, I had the chance to work with experienced professionals in the financial industry and learn about the latest trends and developments in blockchain technology. I gained valuable insights into how blockchain can be used to solve problems and improve processes in the financial sector, and was able to contribute to the company's research efforts.",
     },
