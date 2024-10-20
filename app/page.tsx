@@ -115,7 +115,7 @@ const page = () => {
             })}
           </div>
         </Section> }
-        { /*<Section id='currentlyBuilding'> 
+        { <Section id='currentlyBuilding'> 
           <h2 className="text-xl font-bold">Currently building</h2>
           {RESUME_DATA.currentlyBuilding.map((currentlyBuilding) => {
             return (
@@ -176,7 +176,7 @@ const page = () => {
               </Card>
             );
           })}
-        </Section>*/}
+        </Section>}
         <Section id='awards'> 
           <h2 className="text-xl font-bold">Achievements </h2>
           {RESUME_DATA.awards.map((award) => {

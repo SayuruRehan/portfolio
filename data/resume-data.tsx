@@ -116,7 +116,7 @@ export const RESUME_DATA = {
       projectDetailsLink: "https://github.com/rexanwong/photorush",
     },
   ],
-  notableShoutouts: [
+  /*notableShoutouts: [
     {
       name: "Ryan Hoover, founder of Product Hunt:",
       tweetLink: "https://twitter.com/rrhoover/status/1842977911617335783",
@@ -125,7 +125,7 @@ export const RESUME_DATA = {
       name: "Steven Tey, former developer advocate at Vercel:",
       tweetLink: "https://twitter.com/steventey/status/1843026678580469916",
     },
-  ],
+  ],*/
   education: [
     {
       school: "Sri Lanka Institute of Information Technology",
@@ -136,17 +136,17 @@ export const RESUME_DATA = {
       logo: SLIIT
     },
     {
-      school: "Ananda College, Colombo 10",
+      school: "Ananda College",
       degree: "Advanced Level, Physical Sciences",
       start: "2018",
       end: "2020",
-      activities: "Was awarded the 'Wimala Nissanka Memorial Award' in 2021. I was also the Assistant Treasurer of the ICT Society and the Chief Editor of the Science Union. I was also a member of the Committee Member of the Interact Club",
+      activities: "Was awarded the 'Wimala Nissanka Memorial Award' in 2021. I was also the Assistant Treasurer of the ICT Society and the Chief Editor of the Science Union. I was also a member of the Committee Member of the Interact Club.",
       logo: ANANDA
     },
     {
-      school: "Lyceum International School, Panadura",
+      school: "Lyceum International",
       degree: "Ordinary Level",
-      start: " ",
+      start: "when I was a kid",
       end: "2017",
       activities: "Scored 8A's and 1B. I achieved the District Commissioner's Cord for Scouting. I represented the school in the U-15 and U-17 Cricket teams, U-17 Table Tennis Team, and the U-19 Chess Team",
       logo: LIS
@@ -156,68 +156,101 @@ export const RESUME_DATA = {
     {
       company: "IFS",
       link: "https://www.ifs.com/",
-      badges: ["Contract", "Supply Chain", "PL/SQL", "IFS ERP"],
+      badges: ["Contract", "Supply Chain", "PL/SQL", "IFS ERP", "Procurement"],
       title: "Technical Consultant (External)",
       logo: IFS,
       start: "Oct 2024",
       end: "Present",
-      description:
-        "I am currently working as an external Technical Consultant for the IFS Supply Chain Product Area on a contract basis",
+      description:[
+        <ul>
+          <li> • Working in the Supply Chain Product Area of R&D.</li>
+          <li> • Development of the Avalara Integration in procurement.</li>
+        </ul>
+      ]
     },
     {
       company: "Platned",
       link: "https://www.platned.com/",
-      badges: ["IFS ERP", "PL/SQL", "OracleDB", "BOOMI", "Automated Testing", "Extension Developer", "Integration Developer"],
+      badges: ["IFS ERP", "OracleDB", "BOOMI", "Automated Testing", "Extension Developer", "Integration Developer"],
       title: "Junior Technical Consultant",
       logo: PLAT,
-      start: "Present",
-      end: "Mar 2024",
-      description:
-        "During the summer of 2022, I interned at Arta Tech Fin as a blockchain research intern. My responsibilities included conducting research on blockchain technologies and their potential applications in the financial industry.  At Arta Tech Fin, I had the chance to work with experienced professionals in the financial industry and learn about the latest trends and developments in blockchain technology. I gained valuable insights into how blockchain can be used to solve problems and improve processes in the financial sector, and was able to contribute to the company's research efforts.",
+      start: "Mar 2024",
+      end: "Present",
+      description: [
+        <ul>
+          <li> • Worked on IFS APPS10 Aurena implementation and consultation for Hindustan Aeronautics Limited (HAL).</li>
+          <li> • IFS Cloud 23R2 implementation for Lightsource BP.</li>
+          <li> • Handled BOOMI integrations with IFS Cloud for Multiplex.</li>
+          <li> • Dev Lead in the Platned Mahara tool for automating business workflows.</li>
+        </ul>
+      ]
     },
     {
       company: "Cohere for AI",
-      link: "https://www.platned.com/",
-      badges: ["IFS ERP", "PL/SQL", "OracleDB", "BOOMI", "Automated Testing", "Extension Developer", "Integration Developer"],
+      link: "https://cohere.com/",
+      badges: ["Open Source", "Machine Learning", "NLP", "Tokenizers", "AI", "Evaluations", "Python"],
       title: "ML Researcher & Contributor",
       logo: COHERE,
       start: "Sep 2023",
       end: "Present",
-      description:
-        "Was a volunteer contributor to the Aya Project in Cohere for AI.",
+      description: [
+        <ul>
+          <li> • ML researcher in the 'Enhancing Sinhala NLP Project'</li>
+          <li> • Contributor for the Global MMLU Translations Project. I was placed in the Top 20 global contributors for the project.</li>
+          <li> • Contributor for the Aya 101 initiative.</li>
+        </ul>
+      ]
     },
     {
       company: "IFS",
-      link: "https://www.platned.com/",
-      badges: ["IFS ERP", "PL/SQL", "OracleDB", "BOOMI", "Automated Testing", "Extension Developer", "Integration Developer"],
+      link: "https://www.ifs.com/",
+      badges: ["Java", "Angular", "Docker", "PL/SQL", "OracleDB", "Azure", "Automated Testing", "PowerApps"],
       title: "Software Engineer Intern",
       logo: IFS,
-      start: "Present",
-      end: "Mar 2024",
-      description:
-        "During the summer of 2022, I interned at Arta Tech Fin as a blockchain research intern. My responsibilities included conducting research on blockchain technologies and their potential applications in the financial industry.  At Arta Tech Fin, I had the chance to work with experienced professionals in the financial industry and learn about the latest trends and developments in blockchain technology. I gained valuable insights into how blockchain can be used to solve problems and improve processes in the financial sector, and was able to contribute to the company's research efforts.",
+      start: "Dec 2022",
+      end: "Jan 2024",
+      description: [
+        <ul>
+          <li> • Joined the Platform Team for the DevEx team and currently in the Technology Team within Experience Framework.</li>
+          <li> • Contributed for Stage 3 and Stage 4 development for the timezone support implementation and Custom Objects.</li>
+          <li> • Contributed heavily for Validation/ Container/ Release/ Sanity testing and some of the technical documentations.</li>
+          <li> • Collaborated using Agile Methodologies following the 7 Stage Development Process.</li>
+          <li> • A member of Purple Force and conducted sessions on 'Competitive Programming' for undergraduates at IIT as a representative of IFS.</li>
+          <li> • Finalist at IFS AI Hackathon '23 - Team Hallucin8</li>
+        </ul>
+      ]
     },
     {
       company: "Shape AI",
       link: "https://shape-ai.com/",
-      badges: ["Remote"],
+      badges: ["Remote", "Sales", "Social Media", "Marketing", "Content Creation"],
       title: "Business Development & Social Media Manager Intern",
       logo: SHAPEAI,
-      start: "Present",
-      end: "Mar 2024",
-      description:
-        "During the summer of 2022, I interned at Arta Tech Fin as a blockchain research intern. My responsibilities included conducting research on blockchain technologies and their potential applications in the financial industry.  At Arta Tech Fin, I had the chance to work with experienced professionals in the financial industry and learn about the latest trends and developments in blockchain technology. I gained valuable insights into how blockchain can be used to solve problems and improve processes in the financial sector, and was able to contribute to the company's research efforts.",
+      start: "Apr 2021",
+      end: "Oct 2022",
+      description: [
+        <ul>
+          <li> • Responsible for creating social media marketing content.</li>
+          <li> • Assisted in the growth of the Shape AI community.</li>
+          <li> • Conducted sales activities such as cold calling, cold emailing and customer meetings.</li>
+        </ul>
+      ]
     },
     {
       company: "SNAP Ferd",
-      link: "https://www.platned.com/",
-      badges: ["IFS ERP", "PL/SQL", "OracleDB", "BOOMI", "Automated Testing", "Extension Developer", "Integration Developer"],
+      link: "https://www.sfsacademy.lk/",
+      badges: ["Power BI", "Data Analysis", "Data Visualizations", "Workflow automation", "Project Management"],
       title: "Data Analyst Intern",
       logo: SFS,
-      start: "Present",
-      end: "Mar 2024",
-      description:
-        "During the summer of 2022, I interned at Arta Tech Fin as a blockchain research intern. My responsibilities included conducting research on blockchain technologies and their potential applications in the financial industry.  At Arta Tech Fin, I had the chance to work with experienced professionals in the financial industry and learn about the latest trends and developments in blockchain technology. I gained valuable insights into how blockchain can be used to solve problems and improve processes in the financial sector, and was able to contribute to the company's research efforts.",
+      start: "Nov 2020",
+      end: "Apr 2021",
+      description: [
+        <ul>
+          <li> • Responsible for developing dashboards (Planning & Progress) using , Gathering information from clients/contractors to show information.</li>
+          <li> • Handling the 'Zutec Platform' for a cloud-based document control system.</li>
+          <li> • Preparing presentations for demonstrations with stakeholders (QA/QC, Project Managers, etc.).</li>
+        </ul>
+      ]
     },
   ],
   dataScience: [
