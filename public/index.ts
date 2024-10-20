@@ -1,31 +1,33 @@
-import ThirdwebLogo from './thirdweb.png'
-import CityUniversityLogo from './cityuniversity.png'
-import EthGlobalLogo from './ethglobal.jpeg'
-import IEEELogo from './ieee.png'
-import Cosensys from './cosensys.jpg'
+import PLAT from './platned.png'
+import LIS from './lyceum.png'
+import SHAPEAI from './shapeai.svg'
+import SLIIT from './sliit.png'
+import SFS from './snapferd.jpg'
 import DeveloperDao from './developerdao.png'
 import Apple from './apple.png'
 import Olympiad from './olympiad.png'
 import Arta from './arta.png'
 import Cryptoblk from './cryptoblk.png'
-import HKIS from './hkis.jpg'
-import CAIS from './cais.png'
-import VideoFast from './videofast.png'
+import ANANDA from './ananda.png'
+import COHERE from './cohere.png'
+import IFS from './ifs.png'
 import TextBehindImage from './textbehindimage.png'
+import AVATAR from './avatar.png'
 
 export {
-    ThirdwebLogo,
-    CityUniversityLogo,
-    EthGlobalLogo,
-    IEEELogo,
-    Cosensys,
+    PLAT,
+    LIS,
+    SHAPEAI,
+    SLIIT,
+    SFS,
     DeveloperDao, 
     Apple,
     Olympiad,
     Arta,
     Cryptoblk,
-    HKIS,
-    CAIS,
-    VideoFast,
-    TextBehindImage
+    ANANDA,
+    COHERE,
+    IFS,
+    TextBehindImage,
+    AVATAR
 }

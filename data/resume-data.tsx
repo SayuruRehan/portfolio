@@ -1,5 +1,5 @@
 import { GitHubIcon, LinkedInIcon, XIcon, InstagramIcon } from "@/components/icons";
-import { CityUniversityLogo, EthGlobalLogo, IEEELogo, ThirdwebLogo, Cosensys, DeveloperDao, Apple, Olympiad, Arta, Cryptoblk, HKIS, CAIS, VideoFast, TextBehindImage } from "@/public";
+import { DeveloperDao, Apple, Olympiad, Arta, TextBehindImage, PLAT, LIS, SHAPEAI, SLIIT, SFS, ANANDA, COHERE, IFS, AVATAR } from "@/public";
 
 export const RESUME_DATA = {
   name: "Sayuru Bopitiya",
@@ -16,8 +16,8 @@ export const RESUME_DATA = {
     "Huge Liverpool fan (Let's go Reds!) ❤️",
   ],
   avatarUrl1: "https://pbs.twimg.com/profile_images/1814304469099880448/KAxACa0Z_400x400.jpg",
-  avatarUrl2: "https://github.com/SayuruRehan/portfolio/blob/master/public/avatar.png",
-  personalWebsiteUrl: "https://rexanwong.xyz",
+  avatarUrl2: "/avatar.png",
+  personalWebsiteUrl: "https://sayururehan.vercel.app/",
   contact: {  
     email: null,
     social: [
@@ -78,17 +78,6 @@ export const RESUME_DATA = {
       videoLink: "https://www.youtube.com/watch?v=3b_Rkv0GYV0",
       projectDetailsLink: "https://producthunt.com/posts/text-behind-image",
     },
-    {
-      name: 'VideoFast (videofast.gg)',
-      link: 'https://videofast.gg',
-      badges: ["Startup", "Remotion", "Video editing tool"],
-      title: "A super easy to use online video editor",
-      logo: VideoFast,
-      date: "Since Janurary 2024",
-      description: "I've started building VideoFast since the beginning of 2024, while working on schoolwork at the same time.  From iterating and constantly improving the design and the usability of the video editor, it has evolved into the easiest video editor that you will ever use.  Currently, VideoFast has got the #2 Product of the Day on Product Hunt and has over 500 regular users using the editor.",
-      videoLink: "https://www.youtube.com/watch?v=b1WPCgIV_0I&t=6s",
-      projectDetailsLink: "https://producthunt.com/posts/videofast",
-    },
   ],
   awards: [
     {
@@ -142,7 +131,7 @@ export const RESUME_DATA = {
       start: "2021",
       end: "2025",
       activities: "I am a final year undergraduate specializing in Software Engineeing. I'm the President of the Mozilla Campus Club of SLIIT and the President of the SLIIT Gavel Club. Additionally, I'm the Assistant Treasurer of the SLIIT FOSS Community (Free and Open Source Software) and I was a member of AIESEC in SLIIT for over 2+ years. I have hosted many tech sessions and workshops for the Juniors both physically and virtually.",
-      logo: HKIS
+      logo: SLIIT
     },
     {
       school: "Ananda College, Colombo 10",
@@ -150,7 +139,7 @@ export const RESUME_DATA = {
       start: "2018",
       end: "2020",
       activities: "Was awarded the 'Wimala Nissanka Memorial Award' in 2021. I was also the Assistant Treasurer of the ICT Society and the Chief Editor of the Science Union. I was also a member of the Committee Member of the Interact Club",
-      logo: CAIS
+      logo: ANANDA
     },
     {
       school: "Lyceum International School, Panadura",
@@ -158,7 +147,7 @@ export const RESUME_DATA = {
       start: " ",
       end: "2017",
       activities: "Scored 8A's and 1B. I achieved the District Commissioner's Cord for Scouting. I represented the school in the U-15 and U-17 Cricket teams, U-17 Table Tennis Team, and the U-19 Chess Team",
-      logo: CAIS
+      logo: LIS
     }, 
   ],
   work: [
@@ -167,7 +156,7 @@ export const RESUME_DATA = {
       link: "https://www.ifs.com/",
       badges: ["Contract", "Supply Chain", "PL/SQL", "IFS ERP"],
       title: "Technical Consultant (External)",
-      logo: ThirdwebLogo,
+      logo: IFS,
       start: "Oct 2024",
       end: "Present",
       description:
@@ -178,7 +167,7 @@ export const RESUME_DATA = {
       link: "https://www.platned.com/",
       badges: ["IFS ERP", "PL/SQL", "OracleDB", "BOOMI", "Automated Testing", "Extension Developer", "Integration Developer"],
       title: "Junior Technical Consultant",
-      logo: Arta,
+      logo: PLAT,
       start: "Present",
       end: "Mar 2024",
       description:
@@ -189,7 +178,7 @@ export const RESUME_DATA = {
       link: "https://www.platned.com/",
       badges: ["IFS ERP", "PL/SQL", "OracleDB", "BOOMI", "Automated Testing", "Extension Developer", "Integration Developer"],
       title: "ML Researcher & Contributor",
-      logo: Arta,
+      logo: COHERE,
       start: "Sep 2023",
       end: "Present",
       description:
@@ -200,7 +189,7 @@ export const RESUME_DATA = {
       link: "https://www.platned.com/",
       badges: ["IFS ERP", "PL/SQL", "OracleDB", "BOOMI", "Automated Testing", "Extension Developer", "Integration Developer"],
       title: "Software Engineer Intern",
-      logo: Arta,
+      logo: IFS,
       start: "Present",
       end: "Mar 2024",
       description:
@@ -211,7 +200,7 @@ export const RESUME_DATA = {
       link: "https://shape-ai.com/",
       badges: ["Remote"],
       title: "Business Development & Social Media Manager Intern",
-      logo: Arta,
+      logo: SHAPEAI,
       start: "Present",
       end: "Mar 2024",
       description:
@@ -222,7 +211,7 @@ export const RESUME_DATA = {
       link: "https://www.platned.com/",
       badges: ["IFS ERP", "PL/SQL", "OracleDB", "BOOMI", "Automated Testing", "Extension Developer", "Integration Developer"],
       title: "Data Analyst Intern",
-      logo: Arta,
+      logo: SFS,
       start: "Present",
       end: "Mar 2024",
       description:
