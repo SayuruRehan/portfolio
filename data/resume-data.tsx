@@ -132,7 +132,7 @@ export const RESUME_DATA = {
       degree: "Bachelor's in Software Engineering",
       start: "2021",
       end: "2025",
-      activities: "I am a final year undergraduate specializing in Software Engineeing. I'm the President of the Mozilla Campus Club of SLIIT and the President of the SLIIT Gavel Club. Additionally, I'm the Assistant Treasurer of the SLIIT FOSS Community (Free and Open Source Software) and I was a member of AIESEC in SLIIT for over 2+ years. I have hosted many tech sessions and workshops for the Juniors both physically and virtually.",
+      activities: "I am a final year undergraduate specializing in Software Engineeing. I'm the President of the Mozilla Campus Club of SLIIT and the President of the SLIIT Gavel Club. Additionally, I'm the Assistant Treasurer of the SLIIT FOSS Community (Free and Open Source Software) and I was a member of AIESEC for over 2+ years. I have hosted many tech sessions and workshops for the Juniors both physically and virtually.",
       logo: SLIIT
     },
     {
@@ -140,7 +140,7 @@ export const RESUME_DATA = {
       degree: "Advanced Level, Physical Sciences",
       start: "2018",
       end: "2020",
-      activities: "Was awarded the 'Wimala Nissanka Memorial Award' in 2021. I was also the Assistant Treasurer of the ICT Society and the Chief Editor of the Science Union. I was also a member of the Committee Member of the Interact Club.",
+      activities: "Was awarded the 'Wimala Nissanka Memorial Award' in 2021. I was also the Assistant Treasurer of the ICT Society and the Chief Editor of the Science Union. I was also a member of the Committee Member of the Interact Club and a member of the Senior Beat Band of the Music Circle and the Western Music Association.",
       logo: ANANDA
     },
     {
@@ -148,7 +148,7 @@ export const RESUME_DATA = {
       degree: "Ordinary Level",
       start: "when I was a kid",
       end: "2017",
-      activities: "Scored 8A's and 1B. I achieved the District Commissioner's Cord for Scouting. I represented the school in the U-15 and U-17 Cricket teams, U-17 Table Tennis Team, and the U-19 Chess Team",
+      activities: "I was awarded the 'Best Actor' and 'Merit Award' on 2 consective years for performance in Drama & Theatre. I achieved the District Commissioner's Cord for Scouting and led the Scouting Troop for a while. Represented the school in the U-15 and U-17 Cricket teams, U-17 Table Tennis Team, and the U-19 Chess Team",
       logo: LIS
     }, 
   ],
