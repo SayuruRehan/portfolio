@@ -13,33 +13,35 @@ export const RESUME_DATA = {
     "President | Mozilla Campus Club of SLIIT",
     "President | SLIIT Gavel Club",    
     "Final Year Undergraduate @ SLIIT",
-    "Huge Liverpool fan (Let's go Reds!) ❤️",
+    <>
+    Huge Pokemon fan! <img src='/pikachu-running.gif' alt='Pikachu running' className='moving-gif' style={{ display: 'inline', verticalAlign: 'middle' }} />
+    </>
   ],
-  avatarUrl1: "https://pbs.twimg.com/profile_images/1814304469099880448/KAxACa0Z_400x400.jpg",
+  avatarUrl1: "/profile.png",
   avatarUrl2: "/avatar.png",
   personalWebsiteUrl: "https://sayururehan.vercel.app/",
   contact: {  
     email: null,
     social: [
       {
-        name: "X",
-        url: "https://twitter.com/",
-        icon: XIcon,
-      },
-      {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/sayuru-bopitiya/",
         icon: LinkedInIcon,
+      },     
+      {   
+        name: "GitHub",
+        url: "https://github.com/sayururehan",
+        icon: GitHubIcon,
       },
       {   
         name: "Instagram",
         url: "https://instagram.com/sayururehan",
         icon: InstagramIcon,
-      },   
-      {   
-        name: "GitHub",
-        url: "https://github.com/sayururehan",
-        icon: GitHubIcon,
+      },
+      {
+        name: "X",
+        url: "https://twitter.com/",
+        icon: XIcon,
       },   
     ],
   },
