@@ -164,7 +164,8 @@ export const RESUME_DATA = {
       description:[
         <ul>
           <li> • Working in the Supply Chain Product Area of R&D.</li>
-          <li> • Development of the Avalara Integration in procurement.</li>
+          <li> • Development of the Avalara Integration for procurement.</li>
+          <li> • Developer in the Surge Initiative for IFS Cloud and Maintenix.</li>
         </ul>
       ]
     },
@@ -178,10 +179,10 @@ export const RESUME_DATA = {
       end: "Present",
       description: [
         <ul>
+          <li> • Dev Lead for the Platned Mahara product.</li>
           <li> • Worked on IFS APPS10 Aurena implementation and consultation for Hindustan Aeronautics Limited (HAL).</li>
           <li> • IFS Cloud 23R2 implementation for Lightsource BP.</li>
           <li> • Handled BOOMI integrations with IFS Cloud for Multiplex.</li>
-          <li> • Dev Lead in the Platned Mahara tool for automating business workflows.</li>
         </ul>
       ]
     },

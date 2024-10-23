@@ -1,6 +1,6 @@
 import PLAT from './platned.png'
 import LIS from './lyceum.png'
-import SHAPEAI from './shapeai.svg'
+import SHAPEAI from './shape-ai.png'
 import SLIIT from './sliit.png'
 import SFS from './snapferd.jpg'
 import DeveloperDao from './developerdao.png'
