@@ -13,6 +13,8 @@ import COHERE from './cohere.png'
 import IFS from './ifs.png'
 import TextBehindImage from './textbehindimage.png'
 import AVATAR from './avatar.png'
+import Miniblocks from './miniblocks.png'
+import Mahara from './mahara.png'
 
 export {
     PLAT,
@@ -29,5 +31,7 @@ export {
     COHERE,
     IFS,
     TextBehindImage,
-    AVATAR
+    AVATAR,
+    Miniblocks,
+    Mahara
 }

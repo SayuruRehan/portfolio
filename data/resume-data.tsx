@@ -1,12 +1,12 @@
 import { GitHubIcon, LinkedInIcon, XIcon, InstagramIcon } from "@/components/icons";
-import { DeveloperDao, Apple, Olympiad, Arta, TextBehindImage, PLAT, LIS, SHAPEAI, SLIIT, SFS, ANANDA, COHERE, IFS, AVATAR } from "@/public";
+import { DeveloperDao, Apple, Olympiad, Arta, TextBehindImage, PLAT, LIS, SHAPEAI, SLIIT, SFS, ANANDA, COHERE, IFS, AVATAR, Miniblocks, Mahara } from "@/public";
 
 export const RESUME_DATA = {
   name: "Sayuru Bopitiya",
   initials: "SR",
   location: "Colombo, LK",    
   locationLink: "https://www.google.com/maps/place/Colombo",
-  about: "Hello there! (Star Wars reference) I'm Sayuru, a Software Engineer and a Computer Science undergraduate who loves to build things :)",
+  about: "Hello there! (Obi-Wan reference) I'm Sayuru, a Software Engineer and a Computer Science undergraduate who loves to build things :)",
   aboutBulletPoints: [   
     "3+ years of industry experience",
     "Won some hackathons, eg. IEEEXtreme 16.0, Minihackathon + more",   
@@ -70,6 +70,30 @@ export const RESUME_DATA = {
   ],
   currentlyBuilding: [
     {
+      name: 'Miniblocks',
+      link: 'https://github.com/miniblocks-app',
+      badges: ["No-Code", "App Development", "Cross-Platform"],
+      title: "A No-Code Cross-Platform App Development Platform for kids!",
+      logo: Miniblocks,
+      date: "Since June 2024",
+      description: "A Blocky-based programming environment for developing cross-platform mobile applications focusing on young kids aged 10 to 15. The platform is designed to be a fun and engaging way for kids to learn the basics of programming and app development. The platform is mainly built using Flutter.",
+      videoLink: "",
+      projectDetailsLink: "https://github.com/miniblocks-app",
+    },
+    {
+      name: 'Platned Mahara',
+      link: 'https://www.linkedin.com/posts/platned_introducing-platned-mahara-the-ultimate-activity-7252325225726459904-vmsO?utm_source=share&utm_medium=member_desktop',
+      badges: ["Automated Testing", "DDT", "Cross-Platform"],
+      title: "Automating Business Workflows",
+      logo: Mahara,
+      date: "Since September 2024",
+      description: "I'm the Dev Lead of Platned Mahara which is the ultimate IFS Cloud application testing tool designed to transform how you test your IFS Cloud solutions. With Platned, you can run expected outcomes in just a few clicks, making it the perfect solution for your needs. Mahara consists of 2 components: A chrome extension to capture the API calls and a Desktop Application to execute the tests.",
+      videoLink: "https://www.linkedin.com/posts/platned_introducing-platned-mahara-the-ultimate-activity-7252325225726459904-vmsO?utm_source=share&utm_medium=member_desktop",
+      projectDetailsLink: "https://www.linkedin.com/posts/platned_introducing-platned-mahara-the-ultimate-activity-7252325225726459904-vmsO?utm_source=share&utm_medium=member_desktop",
+    },
+  ],
+  projects: [
+    {
       name: 'Bliss',
       link: 'https://textbehindimage.rexanwong.xyz',
       badges: ["Mental health", "Flutter"],
@@ -81,19 +105,6 @@ export const RESUME_DATA = {
       projectDetailsLink: "https://producthunt.com/posts/text-behind-image",
     },
     {
-      name: 'Text Behind Image',
-      link: 'https://textbehindimage.rexanwong.xyz',
-      badges: ["Free tool", "Design tool"],
-      title: "Create text-behind-image designs easily",
-      logo: TextBehindImage,
-      date: "Since September 2024",
-      description: "Creating stunning text-behind-image designs are difficult and there's not many easy-to-use tools online that helps you do that. So I built my own free tool, in 3 hours with AI tools such as cursor.sh, that helps you create these stunning text-behind-image designs easily on your images. Since launching, the tool has gotten 10K users, 2 million views on X/Twitter, #1 Product of the Day on Product Hunt, and notable shoutouts from people like Ryan Hoover, the founder of Product Hunt.",
-      videoLink: "https://www.youtube.com/watch?v=3b_Rkv0GYV0",
-      projectDetailsLink: "https://producthunt.com/posts/text-behind-image",
-    },
-  ],
-  awards: [
-    {
       name: "Hong Kong Blockchain Olympiad",
       link: "https://www.hkbcol.org/",
       badges: ["Olympiad", "In Person", "100+ teams"],
@@ -101,7 +112,7 @@ export const RESUME_DATA = {
       logo: Olympiad,
       date: "8/2024",
       description: "The HKBCOL is a blockchain solution design competition where teams from all secondary schools from Hong Kong compete to pitch and present their blockchain solution to industry leading judges. I was awarded the gold medal (first place) for my project Proof of Workout Protocol and selected to represent Hong Kong at the International Blockchain Olympiad in the Netherlands.",
-      videoLink: "https://www.youtube.com/watch?v=OYj3Vru7Y4g",
+      videoLink: "",
       projectDetailsLink: "https://github.com/rexanwong/proof-of-workout-protocol",
     },
     {

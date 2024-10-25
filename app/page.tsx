@@ -177,29 +177,29 @@ const page = () => {
             );
           })}
         </Section>}
-        <Section id='awards'> 
-          <h2 className="text-xl font-bold">Achievements </h2>
-          {RESUME_DATA.awards.map((award) => {
+        <Section id='projects'> 
+          <h2 className="text-xl font-bold">Projects</h2>
+          {RESUME_DATA.projects.map((project) => {
             return (
-              <Card key={award.name} className="w-full mb-4">
+              <Card key={project.name} className="w-full mb-4">
                 <CardHeader>
                   <div className="flex items-center gap-x-3">
-                    {award.logo && (
-                      <Image src={award.logo} alt={`${award.name} logo`} className="w-12 h-12 rounded-lg object-contain" />
+                    {project.logo && (
+                      <Image src={project.logo} alt={`${project.name} logo`} className="w-12 h-12 rounded-lg object-contain" />
                     )}
                     <div className="flex-grow">
                       <div className="flex items-center justify-between gap-x-2 text-base">
                         <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
-                          <a className="hover:underline max-w-[300px]" href={award.link} target="_blank" rel="noopener noreferrer">
-                            {award.name}
+                          <a className="hover:underline max-w-[300px]" href={project.link} target="_blank" rel="noopener noreferrer">
+                            {project.name}
                           </a>
                         </h3>
                         <div className="text-sm tabular-nums text-gray-500">
-                          {award.date}
+                          {project.date}
                         </div>
                       </div>
                       <h4 className="font-mono text-sm leading-none max-w-[500px] mt-1">
-                        {award.title}
+                        {project.title}
                       </h4>
                     </div>
                   </div>
@@ -207,16 +207,16 @@ const page = () => {
         
                 <CardContent className="flex flex-col mt-2 gap-4">
                   <p className='text-xs'>
-                    {award.description}
+                    {project.description}
                   </p>
-                  {award.videoLink && (
-                    <MediaPlayer title={award.name} src={award.videoLink}>
+                  {project.videoLink && (
+                    <MediaPlayer title={project.name} src={project.videoLink}>
                       <MediaProvider />
                       <PlyrLayout icons={plyrLayoutIcons}/>
                     </MediaPlayer>
                   )}
                   <span className="inline-flex gap-x-1">
-                    {award.badges.map((badge) => (
+                    {project.badges.map((badge) => (
                       <Badge
                         variant="secondary"
                         className="align-middle text-xxs"
@@ -230,7 +230,7 @@ const page = () => {
         
                 <CardFooter>
                   <Button>
-                    <a href={award.projectDetailsLink} target="_blank" rel="noopener noreferrer">
+                    <a href={project.projectDetailsLink} target="_blank" rel="noopener noreferrer">
                       View details
                     </a>
                   </Button>
