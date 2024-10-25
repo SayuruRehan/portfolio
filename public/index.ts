@@ -11,10 +11,11 @@ import Cryptoblk from './cryptoblk.png'
 import ANANDA from './ananda.png'
 import COHERE from './cohere.png'
 import IFS from './ifs.png'
-import TextBehindImage from './textbehindimage.png'
 import AVATAR from './avatar.png'
 import Miniblocks from './miniblocks.png'
 import Mahara from './mahara.png'
+import Bliss from './bliss.png'
+import Sinhala from './Sinhala.jpg'
 
 export {
     PLAT,
@@ -30,8 +31,9 @@ export {
     ANANDA,
     COHERE,
     IFS,
-    TextBehindImage,
     AVATAR,
     Miniblocks,
-    Mahara
+    Mahara,
+    Bliss,
+    Sinhala
 }
