@@ -14,7 +14,7 @@ import IFS from './ifs.png'
 import AVATAR from './avatar.png'
 import Miniblocks from './miniblocks.png'
 import Mahara from './mahara.png'
-import Bliss from './bliss.png'
+import Bliss from './Bliss.png'
 import Sinhala from './Sinhala.jpg'
 
 export {
