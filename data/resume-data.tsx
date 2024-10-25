@@ -38,11 +38,11 @@ export const RESUME_DATA = {
         url: "https://instagram.com/sayururehan",
         icon: InstagramIcon,
       },
-      {
+      /*{
         name: "X",
         url: "https://twitter.com/",
         icon: XIcon,
-      },   
+      },*/
     ],
   },
   skills: [
