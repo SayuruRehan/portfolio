@@ -14,7 +14,7 @@ export const RESUME_DATA = {
     "President | SLIIT Gavel Club",    
     "Final Year Undergraduate @ SLIIT",
     <>
-    Huge Pokemon fan! <img src='/pikachu-running.gif' alt='Pikachu running' className='moving-gif' style={{ display: 'inline', verticalAlign: 'middle' }} />
+    Huge Pokémon fan! <img src='/pikachu-running.gif' alt='Pikachu running' className='moving-gif' style={{ display: 'inline', verticalAlign: 'middle' }} />
     </>
   ],
   avatarUrl1: "/profile.png",
@@ -93,6 +93,17 @@ export const RESUME_DATA = {
     },
   ],
   projects: [
+    {
+      name: 'Bliss',
+      link: 'https://textbehindimage.rexanwong.xyz',
+      badges: ["Mental health", "Flutter"],
+      title: "Professional therapy. For everyone.",
+      logo: TextBehindImage,
+      date: "Since September 2024",
+      description: "Creating stunning text-behind-image designs are difficult and there's not many easy-to-use tools online that helps you do that. So I built my own free tool, in 3 hours with AI tools such as cursor.sh, that helps you create these stunning text-behind-image designs easily on your images. Since launching, the tool has gotten 10K users, 2 million views on X/Twitter, #1 Product of the Day on Product Hunt, and notable shoutouts from people like Ryan Hoover, the founder of Product Hunt.",
+      videoLink: "https://www.youtube.com/watch?v=3b_Rkv0GYV0",
+      projectDetailsLink: "https://producthunt.com/posts/text-behind-image",
+    },
     {
       name: "Hong Kong Blockchain Olympiad",
       link: "https://www.hkbcol.org/",
@@ -175,7 +186,8 @@ export const RESUME_DATA = {
       description:[
         <ul>
           <li> • Working in the Supply Chain Product Area of R&D.</li>
-          <li> • Development of the Avalara Integration in procurement.</li>
+          <li> • Development of the Avalara Integration for procurement.</li>
+          <li> • Developer in the Surge Initiative for IFS Cloud and Maintenix.</li>
         </ul>
       ]
     },
@@ -189,10 +201,10 @@ export const RESUME_DATA = {
       end: "Present",
       description: [
         <ul>
+          <li> • Dev Lead for the Platned Mahara product.</li>
           <li> • Worked on IFS APPS10 Aurena implementation and consultation for Hindustan Aeronautics Limited (HAL).</li>
           <li> • IFS Cloud 23R2 implementation for Lightsource BP.</li>
           <li> • Handled BOOMI integrations with IFS Cloud for Multiplex.</li>
-          <li> • Dev Lead in the Platned Mahara tool for automating business workflows.</li>
         </ul>
       ]
     },
