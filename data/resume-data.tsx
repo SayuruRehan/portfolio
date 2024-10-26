@@ -129,7 +129,7 @@ export const RESUME_DATA = {
     {
       name: "Quack Debugging",
       link: "https://sayururehan.github.io/quackdebugging/",
-      badges: ["Ducks", "Debugging", "Jekyll"],
+      badges: ["Ducks", "Debugging", "Terminal"],
       title: "Debug your code with a cyber ducky :)",
       logo: QuackDebug,
       date: "Nov 2023",
