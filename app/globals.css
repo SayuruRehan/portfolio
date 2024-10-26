@@ -210,10 +210,10 @@
     transform: translateX(0);
   }
   49.9% {
-    transform: translateX(100vw);
+    transform: translateX(60vw);
   }
   50% {
-    transform: translateX(-100vw);
+    transform: translateX(-60vw);
   }
   100% {
     transform: translateX(0);

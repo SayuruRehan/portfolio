@@ -1,5 +1,5 @@
 import { GitHubIcon, LinkedInIcon, XIcon, InstagramIcon } from "@/components/icons";
-import { DeveloperDao, Apple, Olympiad, Arta, PLAT, LIS, SHAPEAI, SLIIT, SFS, ANANDA, COHERE, IFS, AVATAR, Miniblocks, Mahara, Bliss, Sinhala } from "@/public";
+import { DeveloperDao, Apple, Olympiad, Arta, PLAT, LIS, SHAPEAI, SLIIT, SFS, ANANDA, COHERE, IFS, AVATAR, Miniblocks, Mahara, Bliss, Sinhala, QuackDebug, AlgoFinder, Blinker } from "@/public";
 
 export const RESUME_DATA = {
   name: "Sayuru Bopitiya",
@@ -38,11 +38,11 @@ export const RESUME_DATA = {
         url: "https://instagram.com/sayururehan",
         icon: InstagramIcon,
       },
-      {
+      /*{
         name: "X",
         url: "https://twitter.com/",
         icon: XIcon,
-      },   
+      },*/
     ],
   },
   skills: [
@@ -83,8 +83,8 @@ export const RESUME_DATA = {
     {
       name: 'Platned Mahara',
       link: 'https://www.linkedin.com/posts/platned_introducing-platned-mahara-the-ultimate-activity-7252325225726459904-vmsO?utm_source=share&utm_medium=member_desktop',
-      badges: ["Automated Testing", "DDT", "Cross-Platform"],
-      title: "Automating Business Workflows",
+      badges: ["Automated Testing", "DDT", "Chrome Extension", "Desktop Application"],
+      title: "Automating Business Workflows by a mile",
       logo: Mahara,
       date: "Since Sep 2024",
       description: "I'm the Dev Lead of Platned Mahara which is the ultimate IFS Cloud application testing tool designed to transform how you test your IFS Cloud solutions. With Platned, you can run expected outcomes in just a few clicks, making it the perfect solution for your needs. Mahara consists of 2 components: A chrome extension to capture the API calls and a Desktop Application to execute the tests.",
@@ -95,10 +95,10 @@ export const RESUME_DATA = {
       name: 'Enhancing Sinhala NLP Project',
       link: 'https://www.linkedin.com/posts/sayuru-bopitiya_nlp-sinhala-ai-activity-7255545828344246273-ha-q?utm_source=share&utm_medium=member_desktop',
       badges: ["ML", "Research", "Sinhala", "NLP", "Evaluations"],
-      title: "A project to enhance Sinhala NLP capabilities",
+      title: "A project to enhance Sinhala's NLP capabilities",
       logo: Sinhala,
       date: "Since Sep 2024",
-      description: "The project created a foundational dataset of 10 million Sinhala entries by translating the FLAN dataset and fine-tuning the Gemma 2 model. We translated MMLU datasets for evaluation, revealing significant potential for improvement in Sinhala NLP. This project means so much for the digital future of Sinhala, ensuring that more tools are available to improve accessibility and AI capabilities for underrepresented languages.",
+      description: "This project is a part of Cohere for AI's 'Expedition Aya' initiative. I'm in a team of amazingly talented people who truly believe in the future of the Sinhala langugage. The project created a foundational dataset of 10 million Sinhala entries by translating the FLAN dataset and fine-tuning the Gemma 2 model. We translated MMLU datasets for evaluation, revealing significant potential for improvement in Sinhala NLP. This project means so much for the digital future of Sinhala, ensuring that more tools are available to improve accessibility and AI capabilities for underrepresented languages.",
       videoLink: "https://www.youtube.com/watch?v=DRIqxn7bxI4",
       projectDetailsLink: "https://github.com/the-ai-team/enhancing-sinhala-nlp",
     },
@@ -111,20 +111,42 @@ export const RESUME_DATA = {
       title: "Professional therapy. For everyone.",
       logo: Bliss,
       date: "Since Sep 2022",
-      description: "Many people in Sri Lanka struggle with mental health issues. Mental health is more important than physical health. Without tech introduced, the mental health crisis will grow. Bliss provides free and effective therapy for Sri Lankans during these difficult times.",
+      description: "Bliss is a dream project of mine which also happens to be one of the first. This project won the MiniHackathon competition in 2022 and got us into the Quarter-finals of the Microsoft Imagine Cup 2022. Many people in Sri Lanka struggle with mental health issues. Without tech introduced, the mental health crisis will grow. Bliss provides free and effective therapy for Sri Lankans during these difficult times.",
       videoLink: "",
-      projectDetailsLink: "",
+      projectDetailsLink: "https://www.linkedin.com/posts/sayuru-bopitiya_hypertext-sliit-msclub-activity-6978056739065671680-lZfo?utm_source=share&utm_medium=member_desktop",
     },
     {
       name: "Blinker",
       link: "",
-      badges: ["Python", "Tensorflow"],
-      title: "1st Place",
-      logo: DeveloperDao,
+      badges: ["Python", "OpenCV", "EyeCare"],
+      title: "Detecting eye conditions early on",
+      logo: Blinker,
       date: "Sep 2023",
-      description: "Blinker is a project that aims to help the visually impaired to navigate through the world. It uses a camera to detect the eye and count the blinks and then takes the count to finalize the symptoms.",
+      description: "When I was very young, I used to blink alot. Fortunately, I received care and was subjected to glasses from grade 1 :') Blinker is a project that aims to help people like myself identify their condition early on. It uses a camera to detect the eye and count the blinks and then takes the count to finalize the condition.",
       videoLink: "", 
       projectDetailsLink: "https://github.com/SayuruRehan/Blinker",
+    },
+    {
+      name: "Quack Debugging",
+      link: "https://sayururehan.github.io/quackdebugging/",
+      badges: ["Ducks", "Debugging", "Terminal"],
+      title: "Debug your code with a cyber ducky :)",
+      logo: QuackDebug,
+      date: "Nov 2023",
+      description: "When I was learning coding, I used to follow David Malan's CS50 courses. There he keeps a rubber ducky near him and I've always wondered why. After a bit of Googling, I stumbled upon 'Rubber Duck Debugging'. Quack Debugging is a project that aims to help developers debug their code by explaining the code to a virtual rubber duck (or cyber duck, if you are a cool person). Users can chat with the Cyber Duck about their code, knowledge, life, relationships (anything you want - just dump your trauma). The project is built using Jekyll and is hosted on GitHub Pages.",
+      videoLink: "", 
+      projectDetailsLink: "https://sayururehan.github.io/quackdebugging/",
+    },
+    {
+      name: "Algorithm Pathfinder",
+      link: "https://sayururehan.github.io/algorithm-pathfinder/",
+      badges: ["Algorithms", "Pathfinder", "Jekyll"],
+      title: "A visualizer for different kinds of pathfinding algorithms",
+      logo: AlgoFinder,
+      date: "May 2023",
+      description: "In order to learn algorithms practically,  I worked on this application. This project helped me understand the very core of Algorithms. At its core, a pathfinding algorithm seeks to find the shortest path between two points. This application visualizes various pathfinding algorithms in action, and more! All of the algorithms on this application are adapted for a 2D grid, where 90 degree turns have a 'cost' of 1 and movements from a node to another have a 'cost' of 1. (Inspired by Clement's creation)",
+      videoLink: "", 
+      projectDetailsLink: "https://sayururehan.github.io/algorithm-pathfinder/",
     },
   ],
   /*notableShoutouts: [
@@ -143,7 +165,7 @@ export const RESUME_DATA = {
       degree: "Bachelor's in Software Engineering",
       start: "2021",
       end: "2025",
-      activities: "I am a final year undergraduate specializing in Software Engineeing. I'm the President of the Mozilla Campus Club of SLIIT and the President of the SLIIT Gavel Club. Additionally, I'm the Assistant Treasurer of the SLIIT FOSS Community (Free and Open Source Software) and I was a member of AIESEC for over 2+ years. I have hosted many tech sessions and workshops for the Juniors both physically and virtually.",
+      activities: "I am a final year undergraduate specializing in Software Engineeing. I'm the President of the Mozilla Campus Club of SLIIT and the President of the SLIIT Gavel Club. Additionally, I'm the Assistant Treasurer of the SLIIT FOSS Community (Free and Open Source Software) and I was a member of AIESEC for over 2+ years (Both Nationally and Globally). I have hosted and conducted many tech sessions and workshops for the Juniors both physically and virtually.",
       logo: SLIIT
     },
     {

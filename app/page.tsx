@@ -178,7 +178,7 @@ const page = () => {
           })}
         </Section>}
         <Section id='projects'> 
-          <h2 className="text-xl font-bold">Projects</h2>
+          <h2 className="text-xl font-bold">Past Projects</h2>
           {RESUME_DATA.projects.map((project) => {
             return (
               <Card key={project.name} className="w-full mb-4">

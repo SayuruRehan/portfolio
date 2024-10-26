@@ -16,6 +16,9 @@ import Miniblocks from './miniblocks.png'
 import Mahara from './mahara.png'
 import Bliss from './Bliss.png'
 import Sinhala from './Sinhala.jpg'
+import Blinker from './blinker.jpg'
+import AlgoFinder from './algopathfinder.png'
+import QuackDebug from './rubberducky.png'
 
 export {
     PLAT,
@@ -35,5 +38,8 @@ export {
     Miniblocks,
     Mahara,
     Bliss,
-    Sinhala
+    Sinhala,
+    Blinker,
+    AlgoFinder,
+    QuackDebug
 }
