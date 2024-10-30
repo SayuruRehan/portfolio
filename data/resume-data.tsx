@@ -1,5 +1,5 @@
 import { GitHubIcon, LinkedInIcon, XIcon, InstagramIcon } from "@/components/icons";
-import { DeveloperDao, Apple, Olympiad, Arta, PLAT, LIS, SHAPEAI, SLIIT, SFS, ANANDA, COHERE, IFS, AVATAR, Miniblocks, Mahara, Bliss, Sinhala, QuackDebug, AlgoFinder, Blinker } from "@/public";
+import { PLAT, LIS, SHAPEAI, SLIIT, SFS, ANANDA, COHERE, IFS, Miniblocks, Mahara, Bliss, Sinhala, QuackDebug, AlgoFinder, Blinker } from "@/public";
 
 export const RESUME_DATA = {
   name: "Sayuru Bopitiya",
@@ -165,7 +165,7 @@ export const RESUME_DATA = {
       degree: "Bachelor's in Software Engineering",
       start: "2021",
       end: "2025",
-      activities: "I am a final year undergraduate specializing in Software Engineeing. I'm the President of the Mozilla Campus Club of SLIIT and the President of the SLIIT Gavel Club. Additionally, I'm the Assistant Treasurer of the SLIIT FOSS Community (Free and Open Source Software) and I was a member of AIESEC for over 2+ years (Both Nationally and Globally). I have hosted and conducted many tech sessions and workshops for the Juniors both physically and virtually.",
+      activities: "I am a final year undergraduate specializing in Software Engineeing. I'm the President of the Mozilla Campus Club of SLIIT and the President of the SLIIT Gavel Club. Additionally, I'm the Assistant Treasurer of the SLIIT FOSS Community (Free & Open Source Software) and I was a part of AIESEC for over 2+ years (Both Nationally and Globally). I have hosted and conducted many tech sessions and workshops for the Juniors both physically and virtually.",
       logo: SLIIT
     },
     {
@@ -196,8 +196,8 @@ export const RESUME_DATA = {
       end: "Present",
       description:[
         <ul>
-          <li> • Working in the Supply Chain Product Area of R&D.</li>
-          <li> • Development of the Avalara Integration for procurement.</li>
+          <li> • Working in the Supply Chain Management Area of R&D.</li>
+          <li> • Development of the 'Avalara Tax System' Integration for the procurement area.</li>
           <li> • Developer in the Surge Initiative for IFS Cloud and Maintenix.</li>
         </ul>
       ]
@@ -213,6 +213,7 @@ export const RESUME_DATA = {
       description: [
         <ul>
           <li> • Dev Lead for the Platned Mahara product.</li>
+          <li> • Implemented Agile practices such as User story breakdowns, estimations and sprints.</li>
           <li> • Worked on IFS APPS10 Aurena implementation and consultation for Hindustan Aeronautics Limited (HAL).</li>
           <li> • IFS Cloud 23R2 implementation for Lightsource BP.</li>
           <li> • Handled BOOMI integrations with IFS Cloud for Multiplex.</li>
@@ -245,7 +246,7 @@ export const RESUME_DATA = {
       end: "Jan 2024",
       description: [
         <ul>
-          <li> • Joined the Platform Team for the DevEx team and currently in the Technology Team within Experience Framework.</li>
+          <li> • Joined the Platform Team for the Develper Tools & Extensibility team and later in the Experience Framework team within the Technology Team.</li>
           <li> • Contributed for Stage 3 and Stage 4 development for the timezone support implementation and Custom Objects.</li>
           <li> • Contributed heavily for Validation/ Container/ Release/ Sanity testing and some of the technical documentations.</li>
           <li> • Collaborated using Agile Methodologies following the 7 Stage Development Process.</li>
@@ -319,7 +320,7 @@ export const RESUME_DATA = {
     {
       awardName: "@sraymusic",
       year: "",
-      description: "When I find some free time, I like to do covers of some songs I love. I have a Instagram account where I upload my music. I have been producing music for a little over a year now and I have a small following on Instagram (mostly friends). I hope to release some into Spotify :)",
+      description: "When I find some free time, I like to do covers of some songs I love. I have an Instagram account where I upload my music. I have been doing covers for a little over a year now and I have a small following on Instagram (mostly friends). I hope to release some into Spotify :)",
       link: "https://www.instagram.com/sraymusic/",
     },
   ],
