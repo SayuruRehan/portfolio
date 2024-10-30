@@ -3,11 +3,6 @@ import LIS from './lyceum.png'
 import SHAPEAI from './shape-ai.png'
 import SLIIT from './sliit.png'
 import SFS from './snapferd.jpg'
-import DeveloperDao from './developerdao.png'
-import Apple from './apple.png'
-import Olympiad from './olympiad.png'
-import Arta from './arta.png'
-import Cryptoblk from './cryptoblk.png'
 import ANANDA from './ananda.png'
 import COHERE from './cohere.png'
 import IFS from './ifs.png'
@@ -26,11 +21,6 @@ export {
     SHAPEAI,
     SLIIT,
     SFS,
-    DeveloperDao, 
-    Apple,
-    Olympiad,
-    Arta,
-    Cryptoblk,
     ANANDA,
     COHERE,
     IFS,
