@@ -153,7 +153,7 @@ const page = () => {
                         <PlyrLayout icons={plyrLayoutIcons}/>
                     </MediaPlayer>
                   )}
-                  <span className="inline-flex gap-x-1">
+                  <span className="inline-flex flex-wrap gap-1">
                         {currentlyBuilding.badges.map((badge) => (
                         <Badge
                             variant="secondary"
