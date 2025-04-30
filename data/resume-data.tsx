@@ -206,7 +206,7 @@ export const RESUME_DATA = {
       company: "Platned",
       link: "https://www.platned.com/",
       badges: ["IFS ERP", "OracleDB", "BOOMI", "Automated Testing", "Extension Developer", "Integration Developer"],
-      title: "Junior Technical Consultant",
+      title: "Technical Consultant",
       logo: PLAT,
       start: "Mar 2024",
       end: "Present",
