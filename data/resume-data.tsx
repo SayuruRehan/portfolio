@@ -9,9 +9,9 @@ export const RESUME_DATA = {
   about: "Hello there! (Obi-Wan reference) I'm Sayuru, a Software Engineer and a Computer Science undergraduate who loves to build things :)",
   aboutBulletPoints: [   
     "3+ years of industry experience",
-    "Won some hackathons, eg. IEEEXtreme 16.0, Minihackathon + more",   
-    "President | Mozilla Campus Club of SLIIT",
-    "President | SLIIT Gavel Club",    
+    "Won some hackathons, eg. IEEEXtreme 16.0, Minihackathon + more",
+    "President | SLIIT FOSS Community",
+    "Ex-President | Mozilla Campus Club of SLIIT & SLIIT Gavel Club",    
     "Final Year Undergraduate @ SLIIT",
     <>
     Huge Pokémon fan! <img src='/pikachu-running.gif' alt='Pikachu running' className='moving-gif' style={{ display: 'inline', verticalAlign: 'middle' }} />
@@ -165,7 +165,7 @@ export const RESUME_DATA = {
       degree: "Bachelor's in Software Engineering",
       start: "2021",
       end: "2025",
-      activities: "I am a final year undergraduate specializing in Software Engineeing. I'm the President of the Mozilla Campus Club of SLIIT and the President of the SLIIT Gavel Club. Additionally, I'm the Assistant Treasurer of the SLIIT FOSS Community (Free & Open Source Software) and I was a part of AIESEC for over 2+ years (Both Nationally and Globally). I have hosted and conducted many tech sessions and workshops for the Juniors both physically and virtually.",
+      activities: "I am a final year undergraduate specializing in Software Engineering. I'm the Current President of the SLIIT FOSS Community and was the Former President of the Mozilla Campus Club of SLIIT and the Former President of the SLIIT Gavel Club. Additionally, I was a part of AIESEC for over 2+ years (Both Nationally and Globally). I have hosted and conducted many tech sessions and workshops for the Juniors both physically and virtually.",
       logo: SLIIT
     },
     {
@@ -196,9 +196,10 @@ export const RESUME_DATA = {
       end: "Present",
       description:[
         <ul>
-          <li> • Working in the Supply Chain Management Area of R&D.</li>
-          <li> • Development of the 'Avalara Tax System' Integration for the procurement area.</li>
-          <li> • Developer in the Surge Initiative for IFS Cloud and Maintenix.</li>
+          <li> • Working in the Supply Chain, Procurement defects and implementations.</li>
+          <li> • Core developer of the 'Avalara Tax System' Integration for the Brazilian Tax Localization. Development related to tax calculations and system integrations.</li>
+          <li> • Core developer of the Activity-based emissions calculations for Scope 3 emissions in the sustainability initiative (ESG Framework) for purchased goods/services and Carbon emission tracking metrics according to UN guidelines.</li>
+          <li> • Working in the Surge Initiative for IFS Cloud Maintenix migration and report layout migrations initiative.</li>
         </ul>
       ]
     },
