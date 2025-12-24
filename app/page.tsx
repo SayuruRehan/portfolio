@@ -147,11 +147,23 @@ const page = () => {
                   <p className='text-xs'>
                     {currentlyBuilding.description}
                   </p>
-                  {currentlyBuilding.videoLink  && (
-                    <MediaPlayer title={currentlyBuilding.name} src={currentlyBuilding.videoLink}>
+                  {currentlyBuilding.videoLink && (
+                    currentlyBuilding.videoLink.includes('youtube.com') || currentlyBuilding.videoLink.includes('youtu.be') ? (
+                      <iframe
+                        width="100%"
+                        height="315"
+                        src={currentlyBuilding.videoLink.replace('watch?v=', 'embed/').replace('youtu.be/', 'youtube.com/embed/')}
+                        title={currentlyBuilding.name}
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                      />
+                    ) : (
+                      <MediaPlayer title={currentlyBuilding.name} src={currentlyBuilding.videoLink}>
                         <MediaProvider />
                         <PlyrLayout icons={plyrLayoutIcons}/>
-                    </MediaPlayer>
+                      </MediaPlayer>
+                    )
                   )}
                   <span className="inline-flex flex-wrap gap-1">
                         {currentlyBuilding.badges.map((badge) => (
